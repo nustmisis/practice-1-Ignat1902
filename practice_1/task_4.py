@@ -6,3 +6,17 @@
 
 @author: Savant
 """
+
+four_digit_number = input('Введите четырехзначное число: ')
+acc = 0 #переменная для суммы цифр
+while len(four_digit_number)!= 4:
+    print(four_digit_number)
+    four_digit_number = input('Неверный ввод, введите повторно: ')
+    
+for item in four_digit_number:
+    acc += int(item)
+    
+print(acc)
+    
+
+
